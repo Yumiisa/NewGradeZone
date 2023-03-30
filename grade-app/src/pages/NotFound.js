@@ -7,7 +7,7 @@ const NotFound = () => {
     <div className='notfound'>
         <h2 className='notfound-text'>NotFound</h2>
         <p className='notfound-found'>Go to Home pages
-        <Link to="/">Here</Link>
+        <Link to="/"  className='notfound-link'>Here</Link>
         </p>
     </div>
   )

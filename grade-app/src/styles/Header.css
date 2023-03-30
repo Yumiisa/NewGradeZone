@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #615dfa;
+    width: 100%;
+    height: 10vh;
+}
+.header-center{
+ 
+    background-color: #4e4ec8;
+    flex: .8;
+     border-radius: 5px;
+     position: relative;
+}
+.header-center input{
+    background-color: transparent;
+    outline: none;
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.header-center .MuiSvgIcon-root{
+    margin-right: .5rem;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    color: white;
+}
+.header-centersearchclose{
+    position: absolute;
+     top: 2%;
+    right: 10%;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.header-searchusers{
+    margin-top: 5px;
+   position:absolute ; 
+   background-color: #4e4ec8;
+   width: 100%;
+}
+.header-left{
+    display: flex;
+}
+
+.header-leftAvatar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.notice:visited{
+    color: white !important
+}
